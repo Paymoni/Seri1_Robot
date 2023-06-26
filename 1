@@ -1,0 +1,30 @@
+#include <studio.h>
+#include <conio.h>
+
+int main{
+    int score,temp;
+    char grade;
+    printf("Type Your Score : ");
+    scanf("%d",&score);
+    temp = score / 10;
+    switch(temp)
+    {
+        case 10:
+        case 9:
+            grade = 'A';
+            brake;
+        case 8:
+            grafe = 'B';
+            brake;
+        case 7:
+            grafe = 'C';
+            brake;
+        case 6:
+            grafe = 'D';
+            brake;
+        default:
+        grade = 'F';   
+    }
+    printf("Your grade is : %c\n",grade);
+    getchar();
+}
